@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/raghuramn/work/EspThermostat1/app/src/main/assets"><file name="html/en_us/update.html" path="/Users/raghuramn/work/EspThermostat1/app/src/main/assets/html/en_us/update.html"/><file name="html/zh_cn/update.html" path="/Users/raghuramn/work/EspThermostat1/app/src/main/assets/html/zh_cn/update.html"/></source></dataSet><dataSet config="debug"><source path="/Users/raghuramn/work/EspThermostat1/app/src/debug/assets"/></dataSet></merger>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/esp_login_checkbox_normal" />
+    <item android:state_checked="true" android:drawable="@drawable/esp_login_checkbox_checked" />
+</selector>
+<!-- From: file:/Users/raghuramn/work/EspThermostat1/app/src/main/res/drawable/esp_checkbox.xml -->

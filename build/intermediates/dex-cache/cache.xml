@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/raghuramn/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5af35056b4d257e4b64b9e8069c0746e8b08629f">
+        <dex dex="/Users/raghuramn/work/EspThermostat1/app/build/intermediates/pre-dexed/debug/log4j-1.2.17-4bea759d55d2f103e6eb126cc30cf9bc4d3dfc29.jar" />
+    </item>
+    <item
+        jar="/Users/raghuramn/work/EspThermostat1/app/libs/org.eclipse.paho.client.mqttv3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e4e7064b9cd19e5127cb730fe1493e3dd3a93e17">
+        <dex dex="/Users/raghuramn/work/EspThermostat1/app/build/intermediates/pre-dexed/debug/org.eclipse.paho.client.mqttv3-d1db1bdf3457d1f5387ce6de25edc8fbf1211e74.jar" />
+    </item>
+
+</items>

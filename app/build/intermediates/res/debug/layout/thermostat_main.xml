@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_home"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".Main" >
+
+
+    <Button
+            android:id="@+id/auto_mode"
+            android:layout_width="102dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/auto_fanmode"
+            />    
+
+    <Button
+            android:id="@+id/cool_mode"
+            android:layout_width="102dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cool_mode"
+            />    
+    <Button
+            android:id="@+id/heat_mode"
+            android:layout_width="102dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/heat_mode"
+            />    
+    <Button
+            android:id="@+id/off_mode"
+            android:layout_width="102dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/off_mode"
+            />    
+
+    
+    
+            <TextView
+        android:id="@+id/textResultStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="170dp"
+        android:textSize="20dp"
+        android:textColor="#AAAAAA"
+        android:text="----"
+         />
+            
+            
+
+                <TextView
+        android:id="@+id/cur_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="280dp"
+        android:textSize="100dp"
+        android:textColor="#FFFFFF"
+        android:text="85" />
+
+                
+                
+                <TextView
+        android:id="@+id/out_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="430dp"
+        android:textSize="70dp"
+        android:textColor="#AAAAAA"
+        android:text="85" />
+                
+                <TextView
+        android:id="@+id/cur_hum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="550dp"
+        android:textSize="70dp"
+        android:textColor="#AAAAAA"
+        android:text="48" />                                
+
+
+                <TextView
+        android:id="@+id/cur_pres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="660dp"
+        android:textSize="70dp"
+        android:textColor="#AAAAAA"
+        android:text="85" />
+
+                
+                
+            <TextView
+        android:id="@+id/cool_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="615dp"
+        android:textSize="50dp"
+        android:textColor="#5555FF"
+        android:text="57" />
+                
+            <TextView
+        android:id="@+id/heat_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="820dp"
+        android:textSize="50dp"
+        android:textColor="#FF5555"
+        android:text="98" />            
+        
+            
+    <Button
+            android:id="@+id/inc_cool_temp"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="605dp"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:background="@drawable/mask_red"
+            />
+    <Button
+            android:id="@+id/inc_heat_temp"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="810dp"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:background="@drawable/mask_red"
+            />    
+    <Button
+            android:id="@+id/dec_cool_temp"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="605dp"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:background="@drawable/mask_red"
+            />    
+    <Button
+            android:id="@+id/dec_heat_temp"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="810dp"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:background="@drawable/mask_red"
+            />    
+
+    <Button
+            android:id="@+id/fan_auto"
+            android:layout_width="92dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/auto_fanmode"
+            />
+    <Button
+            android:id="@+id/fan_lo"
+            android:layout_width="92dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="350dp"
+            android:layout_gravity="center"
+            android:background="@drawable/low_fanmode"
+            />
+    <Button
+            android:id="@+id/fan_hi"
+            android:layout_width="92dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="450dp"
+            android:layout_gravity="center"
+            android:background="@drawable/hi_fanmode"
+            />                    
+</RelativeLayout><!-- From: file:/Users/raghuramn/work/EspThermostat1/app/src/main/res/layout/thermostat_main.xml -->
